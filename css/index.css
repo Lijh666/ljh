@@ -1,0 +1,303 @@
+/*
+* @Author: 李家豪
+* @Date:   2020-06-01 19:00:49
+* @Last Modified by:   ljh66666
+* @Last Modified time: 2020-06-06 09:46:57
+*/
+#top{
+	height: 60px;
+	width: 1200px;
+	margin: 0 auto;
+	background: white;
+}
+.logo{
+	margin-top: 16px;
+	width: 130px;
+}
+#top .u_1{
+	float: left;
+}
+#top .u_1 li{
+	height: 58px;
+	width: 80px;
+	line-height: 58px;
+	text-align: center;
+	margin-left: 25px;
+	float: left;
+	border-bottom: 2px solid transparent;
+}
+#top .u_1 .img_0{
+	margin-left: 0;
+	width: 130px;
+}
+#top .u_1 a{
+	color: black;
+}
+#top .u_1 li:hover{
+	cursor: pointer;
+	color: orange;
+	border-bottom: 2px solid red;
+}
+#top .f{
+	float: left;
+	margin-left: 120px; 
+	margin-top: 15px;
+}
+#top form input{
+	border: 1px solid pink;
+	float: left;
+}
+.search{
+	height: 30px;
+	width: 200px;
+}
+.search + input{
+	height: 32px;
+	width: 32px;
+	background: url(../images/fa-search.png) pink no-repeat center;
+}
+#top .p{
+	float: right;
+	height: 60px;
+	line-height: 60px;
+	width: 90px;
+	margin-left: 20px;
+}
+#top .p li{
+	width: 40px;
+	margin: 0;
+	float: left;
+}
+#body_1{
+	background: rgb(243, 245, 247);
+	height: 2100px;
+	width: auto;
+	padding-top: 30px;
+}
+.banner{
+	width: 1200px;
+	height: 560px;
+	margin: 0 auto;
+}
+.banner img{
+	height: 560px;
+	width: 1200px;
+}
+.body_2{
+	width: 1200px;
+	margin: 0 auto;
+}
+.banner_2{
+	width: 1200px;
+	height: 45px;
+	margin: 20px auto;
+	background: white;
+	padding-top: 15px;
+}
+.banner_2 li{
+	float: left;
+	height: 28px;
+	border: 1px solid transparent;
+	border-radius: 20px;
+	line-height: 28px;
+	width: 98px;
+	text-align: center;
+	margin: 0 12.5px;
+}
+.banner_2 ul{
+	width: 500px;
+	margin: 0 auto;
+}
+.banner_2 li:hover{
+	cursor: pointer;
+	border: 1px solid red;
+}
+.body_3{
+	width: 1200px;
+	margin: 0 auto;
+}
+.body_3 ul{
+	float: left;
+}
+.body_3 ul li{
+	float: left;
+	margin-left: 36px;
+	margin-bottom: 20px; 
+}
+.body_3 ul .t_1_f{
+	margin-left: 0;
+}
+.body_3 ul li img{
+	height: 212px;
+	width: 376px;
+}
+.body_3 ul div{
+	height: 110px;
+	width: 366px;
+	background: white;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 10px; 
+}
+.body_3 ul div p+p{
+	text-align: left;
+	margin-top: 50px;
+	font-size: 12px;
+	background: rgb(243, 245, 247);
+	width: 25px;
+}
+.body_3 li:hover{
+	outline: 2px solid pink;
+}
+.banner_3{
+	width: 1200px;
+	margin: 20px auto;
+	height: 60px;
+	background: white;
+}
+.banner_3 li{
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	padding-left: 25px;
+	font-size: 14px;
+}
+.banner_3 li:hover{
+	cursor: pointer;
+	color: red;
+}
+.body_4{
+	width: 1200px;
+	margin: 0 auto;
+}
+.body_4 li{
+	float: left;
+	width: 346px;
+	margin-left: 36px;
+	margin-bottom: 36px;
+	background: white;
+	height: 110px;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+.body_4 .t_2_f{
+	margin-left: 0;
+}
+.body_4 li img{
+	float: left;
+}
+.body_4 li div{
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.body_4 li div p+p{
+	margin-top: 10px;
+}
+.body_4 li:hover{
+	outline: 2px solid pink;
+}
+.bottom{
+	height: 140px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.bottom_left{
+	width: 400px;
+	float: left;
+}
+.bottom_left ul{
+	float: left;
+	margin-top: 40px;
+}
+.bottom_left li{
+	float: left;
+	margin-right: 30px;
+}
+.bottom_left p{
+	float: left;
+	margin-top: 20px;
+	font-size: 12px;
+	height: 30px;
+}
+.bottom_left img{
+	float: left;
+	width: 75px;
+	padding-right: 5px;
+}
+.bottom_left span{
+	float: left;
+	display: block;
+}
+.bottom_right{
+	float: right;
+	width: 230px;
+}
+.bottom_right li{
+	float: left;
+	text-align: center;
+	font-size: 14px;
+	margin: 30px 10px;
+}
+.bottom_right img{
+	width: 25px;
+	height: 25px;
+}
+.last{
+	height: 560px;
+	width: 200px;
+	position: absolute;
+	top: 91px;
+    left: 161px;
+    background: rgba(255,255,255,0.3)
+}
+.last_1{
+	margin-top: 26px;
+	height: 200px;
+	width: 200px;
+	position: relative;
+	top: 0;
+	right: 0;
+	text-align: center;
+}
+.last_1 img{
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+	margin-bottom: 16px;
+	margin-top: 6px;
+}
+.last_1 .inp_1{
+	border: 1px pink solid;
+	height: 36px;
+	width: 198px;
+	background: rgba(255,255,255,1);
+	color: black;
+}
+.last_1 .inp_2{
+	margin-top: 6px;
+	border: 1px pink solid;
+	height: 36px;
+	width: 198px;
+	background: rgba(255,255,255,1);
+	color: black;
+}
+.last_1 .inp_3{
+	border: 1px pink solid;
+	height: 36px;
+	width: 36px;
+	position: absolute;
+	top: 121px;
+    right: 0px;
+}
+.last_2{
+	height: 198px;
+	width: 198px;
+	border: 1px pink solid;
+	text-decoration: underline;
+	line-height: 1.5em;
+	text-indent: 2em;
+	color: white;
+}
